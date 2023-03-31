@@ -935,7 +935,31 @@ a.text-dark:hover, a.text-dark:focus {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
   font-weight: 500;
-  color: #00D9A5;
+  color: #16d900;
+}
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #74ff81; /* Green */
+  color: white;
+}
+.button-one {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #74ff81; /* Green */
+  color: white;
+}
+.button-one {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  /* border: 3px solid green; */
 }
 
 
@@ -1192,6 +1216,7 @@ a.text-dark:hover, a.text-dark:focus {
   position: relative;
   height: 550px;
   z-index: 10;
+  /* border: 2px solid black; */
 }
 
 .page-banner {
@@ -1216,7 +1241,9 @@ a.text-dark:hover, a.text-dark:focus {
 .page-banner .breadcrumb-item a {
   font-size: 14px;
 }
-
+.how{
+  margin-left: 200px;
+}
 .hero-section,
 .banner-section {
   position: relative;
@@ -1229,6 +1256,7 @@ a.text-dark:hover, a.text-dark:focus {
   height: 100%;
   color: #ffffff;
   z-index: 10;
+  /* left: 10px; */
 }
 
 .hero-section .subhead {
